@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
-        "allowSyntheticDefaultImports": true
-    },
-    "exclude": [
-        "node_modules",
-        "bower_components",
-        "tmp",
-        "temp"
-    ]
+  "compilerOptions": {
+    "target": "es6",
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "bower_components",
+    "tmp",
+    "temp"
+  ]
 }
