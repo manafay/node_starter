@@ -10,7 +10,7 @@ function readFiles(path) {
     files.forEach(file => {
       const fPath = relativePath.resolve(path, file);
       fs.stat(fPath, (error, stats) => {
-        if (error) throw new Error(err);
+        if (error) throw new Error(error);
         if (stats.isDirectory())
           readFiles(fPath);
         else
